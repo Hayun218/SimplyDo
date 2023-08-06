@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE052E392A7A60C500E15E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE052E382A7A60C500E15E74 /* ContentView.swift */; };
+		AEDD67242A7A2A21004AC68C /* SimplyToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD67232A7A2A21004AC68C /* SimplyToDoApp.swift */; };
+		AEDD67282A7A2A21004AC68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDD67272A7A2A21004AC68C /* Assets.xcassets */; };
+		AEDD672B2A7A2A21004AC68C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDD672A2A7A2A21004AC68C /* Preview Assets.xcassets */; };
+		AEDD67302A7A2A21004AC68C /* SimplyToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEDD672E2A7A2A21004AC68C /* SimplyToDo.xcdatamodeld */; };
+		AEDD673B2A7A2ABE004AC68C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD673A2A7A2ABE004AC68C /* CalendarView.swift */; };
+		AEEFEBCA2A7BFA3B00A91015 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEFEBC92A7BFA3B00A91015 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE052E382A7A60C500E15E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEDD67202A7A2A21004AC68C /* SimplyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDD67232A7A2A21004AC68C /* SimplyToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyToDoApp.swift; sourceTree = "<group>"; };
+		AEDD67272A7A2A21004AC68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEDD672A2A7A2A21004AC68C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEDD672F2A7A2A21004AC68C /* SimplyToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplyToDo.xcdatamodel; sourceTree = "<group>"; };
+		AEDD67312A7A2A21004AC68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDD673A2A7A2ABE004AC68C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		AEEFEBC92A7BFA3B00A91015 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEDD671D2A7A2A21004AC68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEDD67172A7A2A21004AC68C = {
+			isa = PBXGroup;
+			children = (
+				AEDD67222A7A2A21004AC68C /* SimplyToDo */,
+				AEDD67212A7A2A21004AC68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEDD67212A7A2A21004AC68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD67202A7A2A21004AC68C /* SimplyToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEDD67222A7A2A21004AC68C /* SimplyToDo */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD67392A7A2A83004AC68C /* Model */,
+				AEDD67382A7A2A7C004AC68C /* ViewModel */,
+				AEDD67372A7A2A78004AC68C /* View */,
+				AEDD67232A7A2A21004AC68C /* SimplyToDoApp.swift */,
+				AE052E382A7A60C500E15E74 /* ContentView.swift */,
+				AEDD67272A7A2A21004AC68C /* Assets.xcassets */,
+				AEDD67312A7A2A21004AC68C /* Info.plist */,
+				AEDD67292A7A2A21004AC68C /* Preview Content */,
+			);
+			path = SimplyToDo;
+			sourceTree = "<group>";
+		};
+		AEDD67292A7A2A21004AC68C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD672A2A7A2A21004AC68C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEDD67372A7A2A78004AC68C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD673A2A7A2ABE004AC68C /* CalendarView.swift */,
+				AEEFEBC92A7BFA3B00A91015 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEDD67382A7A2A7C004AC68C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AEDD67392A7A2A83004AC68C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD672E2A7A2A21004AC68C /* SimplyToDo.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEDD671F2A7A2A21004AC68C /* SimplyToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDD67342A7A2A21004AC68C /* Build configuration list for PBXNativeTarget "SimplyToDo" */;
+			buildPhases = (
+				AEDD671C2A7A2A21004AC68C /* Sources */,
+				AEDD671D2A7A2A21004AC68C /* Frameworks */,
+				AEDD671E2A7A2A21004AC68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyToDo;
+			productName = SimplyToDo;
+			productReference = AEDD67202A7A2A21004AC68C /* SimplyToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEDD67182A7A2A21004AC68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AEDD671F2A7A2A21004AC68C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AEDD671B2A7A2A21004AC68C /* Build configuration list for PBXProject "SimplyToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEDD67172A7A2A21004AC68C;
+			productRefGroup = AEDD67212A7A2A21004AC68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEDD671F2A7A2A21004AC68C /* SimplyToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEDD671E2A7A2A21004AC68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDD672B2A7A2A21004AC68C /* Preview Assets.xcassets in Resources */,
+				AEDD67282A7A2A21004AC68C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDD671C2A7A2A21004AC68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDD673B2A7A2ABE004AC68C /* CalendarView.swift in Sources */,
+				AEDD67242A7A2A21004AC68C /* SimplyToDoApp.swift in Sources */,
+				AE052E392A7A60C500E15E74 /* ContentView.swift in Sources */,
+				AEEFEBCA2A7BFA3B00A91015 /* MainView.swift in Sources */,
+				AEDD67302A7A2A21004AC68C /* SimplyToDo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEDD67322A7A2A21004AC68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEDD67332A7A2A21004AC68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEDD67352A7A2A21004AC68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = SL6KBD5WZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yun.simply.SimplyToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEDD67362A7A2A21004AC68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = SL6KBD5WZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yun.simply.SimplyToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEDD671B2A7A2A21004AC68C /* Build configuration list for PBXProject "SimplyToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDD67322A7A2A21004AC68C /* Debug */,
+				AEDD67332A7A2A21004AC68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDD67342A7A2A21004AC68C /* Build configuration list for PBXNativeTarget "SimplyToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDD67352A7A2A21004AC68C /* Debug */,
+				AEDD67362A7A2A21004AC68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEDD672E2A7A2A21004AC68C /* SimplyToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEDD672F2A7A2A21004AC68C /* SimplyToDo.xcdatamodel */,
+			);
+			currentVersion = AEDD672F2A7A2A21004AC68C /* SimplyToDo.xcdatamodel */;
+			path = SimplyToDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEDD67182A7A2A21004AC68C /* Project object */;
+}
